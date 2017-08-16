@@ -8,13 +8,13 @@ app.use(morgan('combined'));
 var articleOne = {
     title:'Article One | Lakshmi Menon',
     heading: 'Article One',
-    date: 'ugust 16th 2017',
+    date: 'August 16th 2017',
     content: `
         <p>
                     I am absolutely loving this creation. My first article on the web. 
                     
-                </p>
-                <p>
+        </p>
+        <p>
                     IMAD has introduced a concept that I have been thinking of learning and all thanks to my hubby for getting me started... enjoying every bit of this
         </p>`
 };
@@ -24,7 +24,8 @@ function createTemplate (date) {
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
-}
+};
+
 var htmltemplate = `
 <html>
     <head>
